@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-        ],
+            'publisher = pkg1.pub:main',
+     ],
     },
 )
